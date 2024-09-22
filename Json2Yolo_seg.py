@@ -50,14 +50,14 @@ label_map = {
     "cable": 3,
     "void": 4,
     "tower_tucohy": 5
-    # 添加更多标签映射...
+    # 添加更多标签映射...！！修改你的类
 }
 
 # JSON文件所在文件夹路径
-json_folder = 'D:/SHD/annotations/'
+json_folder = 'json文件夹路径'
 
 # 转换后的多边形标注文件保存路径
-txt_folder = 'D:/SHD/json2yolo2/'
+txt_folder = '保存路径'
 
 # 执行转换
-convert_to_polygon_format(json_folder, txt_folder, label_map)
+convert_to_polygon_format(json_folder, txt_folder, label_map)#直接运行
